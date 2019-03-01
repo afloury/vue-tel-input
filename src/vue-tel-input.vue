@@ -39,6 +39,7 @@
            :state="state"
            :formatter="format"
            :disabled="disabled"
+           autocomplete="off"
            @blur="onBlur"
            @input="onInput"
            :required="required">
